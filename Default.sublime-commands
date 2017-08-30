@@ -14,33 +14,42 @@
         "args": {"live_preview" : true}
     },
     {
-    "caption": "Align Tab: By First Equal =",
-    "command": "align_tab",
-     "args": {"user_input" : "=/f"}
+        "caption": "Align Tab: By First Equal =",
+        "command": "align_tab",
+         "args": {"user_input" : "=/f"}
     },
     {
-    "caption" : "Align Tab: By First Colon :",
-    "command" : "align_tab",
-    "args"    : {"user_input" : ":/f"}
+        "caption" : "Align Tab: By First Colon :",
+        "command" : "align_tab",
+        "args"    : {"user_input" : ":/f"}
     },
     {
-    "caption": "Align Tab: By Fat Arrow =>",
-    "command": "align_tab",
-     "args": {"user_input" : "=>"}
+        "caption": "Align Tab: By Fat Arrow =>",
+        "command": "align_tab",
+         "args": {"user_input" : "=>"}
     },
     {
-    "caption" : "Align Tab: By Ampersands &",
-    "command" : "align_tab",
-    "args"    : {"user_input" : "&"}
+        "caption" : "Align Tab: By Ampersands &",
+        "command" : "align_tab",
+        "args"    : {"user_input" : "&"}
     },
     {
-    "caption" : "Align Tab: By Vertical Bars |",
-    "command" : "align_tab",
-    "args"    : {"user_input" : "\\|"}
+        "caption" : "Align Tab: By Vertical Bars |",
+        "command" : "align_tab",
+        "args"    : {"user_input" : "\\|"}
     },
     {
-    "caption" : "Align Tab: By Spaces",
-    "command" : "align_tab",
-    "args"    : {"user_input" : "\\s*/l1l0"}
+        "caption" : "Align Tab: By Spaces",
+        "command" : "align_tab",
+        "args"    : {"user_input" : "\\s*/l1l0"}
+    },
+    {
+        "caption": "Preferences: AlignTab Settings",
+        "command": "edit_settings",
+        "args":
+        {
+            "base_file": "${packages}/AlignTab/AlignTab.sublime-settings",
+            "default": "{\n\t$0\n}\n"
+        }
     }
 ]
