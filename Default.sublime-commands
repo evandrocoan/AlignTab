@@ -4,14 +4,18 @@
         "command": "align_tab"
     },
     {
-        "caption": "Align Tab: Toogle Table Mode",
+        "caption": "Align Tab: Table Mode",
         "command": "align_tab",
         "args": {"mode" : true}
     },
     {
-        "caption": "Align Tab: Toogle Live Preview Mode",
+        "caption": "Align Tab: Live Preview Mode",
         "command": "align_tab",
         "args": {"live_preview" : true}
+    },
+    {
+        "caption": "AlignTab: Exit Table Mode",
+        "command": "align_tab_clear_mode"
     },
     {
         "caption": "Align Tab: By First Equal =",
@@ -50,6 +54,16 @@
         {
             "base_file": "${packages}/AlignTab/AlignTab.sublime-settings",
             "default": "{\n\t$0\n}\n"
+        }
+    },
+    {
+        "caption": "Preferences: AlignTab Context Menu",
+        "command": "edit_settings",
+        "args":
+        {
+            "user_file": "${packages}/User/AlignTab/Context.sublime-menu",
+            "base_file": "${packages}/AlignTab/Context.sublime-menu",
+            "default": "[\n\t$0\n]\n"
         }
     }
 ]
