@@ -18,12 +18,12 @@
 		]
 	},
 
-    {
-        "keys": ["escape"], "command": "align_tab_clear_mode",
-        "context":
-        [
-            { "key": "setting.AlignTabTableMode", "operator": "equal", "operand": true }
-        ]
-    }
+    // {
+    //     "keys": ["escape"], "command": "align_tab_clear_mode",
+    //     "context":
+    //     [
+    //         { "key": "setting.AlignTabTableMode", "operator": "equal", "operand": true }
+    //     ]
+    // }
 
 ]
