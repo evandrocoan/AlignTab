@@ -63,11 +63,11 @@ class AlignTabModeController(sublime_plugin.EventListener):
     def on_text_command(self, view, cmd, args):
         if view.is_scratch() or view.settings().get('is_widget'):
             return
-        if self.table_mode(view):
-            if cmd == "undo":
-                view.run_command("soft_undo")
-                return ("soft_undo", None)
-            return None
+        # if self.table_mode(view):
+        #     if cmd == "undo":
+        #         view.run_command("soft_undo")
+        #         return ("soft_undo", None)
+        #     return None
 
     def table_mode(self, view):
         return view.settings().has("AlignTabTableMode")
