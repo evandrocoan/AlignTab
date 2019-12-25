@@ -61,6 +61,7 @@ ST2 support is deprecated but however, it is still possible to install AlignTab 
 search for **`AlignTab`** and press <kbd>Enter</kbd>
 
 See also:
+
 1. [ITE - Integrated Toolset Environment](https://github.com/evandrocoan/ITE)
 1. [Package control docs](https://packagecontrol.io/docs/usage) for details.
 
